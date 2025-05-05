@@ -1,11 +1,9 @@
 <?php
 
 use App\Http\Controllers\ErrorController;
-<<<<<<< HEAD
 use App\Http\Controllers\laporanController;
 use App\Http\Controllers\PembayaranController;
-=======
->>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
+
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ReservasiController;
 use App\Http\Controllers\TempatAcaraController;
@@ -29,11 +27,8 @@ Route::middleware('auth')->group(function () {
     Route::resource('tiket', TiketController::class);
     Route::resource('tempat_acara', TempatAcaraController::class);
     Route::resource('reservasi', ReservasiController::class);
-<<<<<<< HEAD
     Route::resource('pembayaran', PembayaranController::class);
     Route::resource('laporan', laporanController::class);
-=======
->>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
 });
 
 require __DIR__.'/auth.php';

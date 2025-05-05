@@ -156,17 +156,16 @@
             <p>Total Lunas: {{ $totalLunas }} transaksi</p>
             <p>Total Pending: {{ $totalPending }} transaksi</p>
             <p>Total Gagal: {{ $totalGagal }} transaksi</p>
-            <p>Total Nominal Pembayaran: Rp {{ number_format($totalPembayaran, 0, ',', '.') }}</p>
+            <p>Total Nominal Pembayaran: {{ number_format($totalPembayaran, 0, ',', '.') }}</p>
         </div>
 
         <!-- Tanda Tangan -->
         <div style="margin-top: 50px; text-align: right;">
             <div style="width: 200px; display: inline-block;">
-                <p>Jakarta, {{ date('d F Y') }}</p>
+                <p>Bandung, {{ date('d F Y') }}</p>
                 <div class="signature-line"></div>
                 <p>Mengetahui,</p>
                 <p style="margin-top: 30px;">(_)</p>
-                <p>Finance Manager</p>
             </div>
         </div>
 

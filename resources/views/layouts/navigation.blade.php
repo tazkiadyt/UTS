@@ -15,33 +15,33 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         <span class="text-white hover:text-blue-100 transition-colors">{{ __('Dashboard') }}</span>
                     </x-nav-link>
-                </div>  
+                </div>
 
                 @can('role-admin')
-                    <div class="hidden sm:flex sm:items-center sm:ms-6">
-                        <x-dropdown align="right" width="48">
-                            <x-slot name="trigger">
-                                <button class="flex items-center text-white hover:text-blue-100 transition-colors">
-                                    <span class="me-2">Master</span>
-                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                    </svg>
-                                </button>
-                            </x-slot>
+                <div class="hidden sm:flex sm:items-center sm:ms-6">
+                    <x-dropdown align="right" width="48">
+                        <x-slot name="trigger">
+                            <button class="flex items-center text-white hover:text-blue-100 transition-colors">
+                                <span class="me-2">Master</span>
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </x-slot>
 
-                            <x-slot name="content">
-                                <x-dropdown-link :href="route('tiket.index')" class="text-blue-700 hover:bg-blue-100">
-                                    {{ __('Tiket') }}
-                                </x-dropdown-link>
-                                <x-dropdown-link :href="route('tempat_acara.index')" class="text-blue-700 hover:bg-blue-100">
-                                    {{ __('Tempat Acara') }}
-                                </x-dropdown-link>
-                                <x-dropdown-link :href="route('reservasi.index')" class="text-blue-700 hover:bg-blue-100">
-                                    {{ __('Reservasi') }}
-                                </x-dropdown-link>
-                            </x-slot>
-                        </x-dropdown>
-                    </div>
+                        <x-slot name="content">
+                            <x-dropdown-link :href="route('tiket.index')" class="text-blue-700 hover:bg-blue-100">
+                                {{ __('Tiket') }}
+                            </x-dropdown-link>
+                            <x-dropdown-link :href="route('tempat_acara.index')" class="text-blue-700 hover:bg-blue-100">
+                                {{ __('Tempat Acara') }}
+                            </x-dropdown-link>
+                            <x-dropdown-link :href="route('reservasi.index')" class="text-blue-700 hover:bg-blue-100">
+                                {{ __('Reservasi') }}
+                            </x-dropdown-link>
+                        </x-slot>
+                    </x-dropdown>
+                </div>
                 @endcan
 
                 <div class="hidden sm:flex sm:items-center sm:ms-6">
@@ -56,25 +56,18 @@
                         </x-slot>
 
                         <x-slot name="content">
-<<<<<<< HEAD
                             <x-dropdown-link :href="route('pembayaran.index')" class="text-blue-700 hover:bg-blue-100">
-=======
-                            <x-dropdown-link :href="route('dashboard')" class="text-blue-700 hover:bg-blue-100">
->>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
                                 {{ __('Transaksi') }}
                             </x-dropdown-link>
                         </x-slot>
                     </x-dropdown>
                 </div>
-<<<<<<< HEAD
 
                 <div class="flex items-center text-white hover:text-blue-100 transition-colors">
-                    <x-nav-link :href="route('laporan.index')" >
+                    <x-nav-link :href="route('laporan.index')">
                         {{ __('Laporan') }}
                     </x-nav-link>
                 </div>
-=======
->>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
             </div>
 
             <!-- Settings Dropdown -->
