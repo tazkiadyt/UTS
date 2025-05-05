@@ -52,6 +52,7 @@
         </header>
 
         <!-- Main Content -->
+<<<<<<< HEAD
         <main class="relative flex-grow bg-cover bg-center bg-no-repeat flex items-center justify-center text-white" 
         style="background-image: url('https://cdn.antaranews.com/cache/1200x800/2021/12/28/pexels-thibault-trillet-167636-1.jpg.webp'); min-height: 80vh;">
   
@@ -78,6 +79,22 @@
   </main>
   
   
+=======
+        <main class="flex-grow flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-200">
+            <div class="text-center px-6 max-w-md space-y-6">
+                <h2 class="text-4xl font-bold text-blue-900">
+                    Selamat Datang di TiketKu
+                </h2>
+                <p class="text-lg text-blue-700">
+                    Platform pemesanan tiket online terbaik untuk acara favorit Anda.
+                </p>
+                <a href="{{ route('login') }}" class="block w-full px-6 py-3 rounded-lg bg-blue-600 text-white text-lg font-medium hover:bg-blue-700 transition-colors shadow-md">
+                    Mulai Pesan Tiket
+                </a>
+            </div>
+        </main>
+
+>>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
         <!-- Footer -->
         <footer class="text-center py-4 bg-white border-t">
             <p class="text-sm text-blue-600">&copy; {{ date('Y') }} TiketKu. All rights reserved.</p>

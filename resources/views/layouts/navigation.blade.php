@@ -56,18 +56,25 @@
                         </x-slot>
 
                         <x-slot name="content">
+<<<<<<< HEAD
                             <x-dropdown-link :href="route('pembayaran.index')" class="text-blue-700 hover:bg-blue-100">
+=======
+                            <x-dropdown-link :href="route('dashboard')" class="text-blue-700 hover:bg-blue-100">
+>>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
                                 {{ __('Transaksi') }}
                             </x-dropdown-link>
                         </x-slot>
                     </x-dropdown>
                 </div>
+<<<<<<< HEAD
 
                 <div class="flex items-center text-white hover:text-blue-100 transition-colors">
                     <x-nav-link :href="route('laporan.index')" >
                         {{ __('Laporan') }}
                     </x-nav-link>
                 </div>
+=======
+>>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
             </div>
 
             <!-- Settings Dropdown -->

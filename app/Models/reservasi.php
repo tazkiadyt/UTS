@@ -24,9 +24,12 @@ class reservasi extends Model
     {
         return $this->belongsTo(user::class);
     }
+<<<<<<< HEAD
 
     public function pembayaran()
     {
         return $this->hasMany(pembayaran::class);
     }
+=======
+>>>>>>> 1f555367fdc494c87f507ad34a30bceb9fcff838
 }
