@@ -48,7 +48,7 @@
 
                 <!-- Card Statistik 3 -->
                 <div class="bg-white dark:bg-blue-900 p-6 rounded-lg shadow-lg">
-                    <div class="text-blue-600 dark:text-blue-300 text-lg font-semibold mb-2">Pendapatan Hari Ini</div>
+                    <div class="text-blue-600 dark:text-blue-300 text-lg font-semibold mb-2">Pendapatan Hari Iniii</div>
                     <div class="text-3xl font-bold text-blue-900 dark:text-blue-200">Rp 15.5jt</div>
                 </div>
             </div>
